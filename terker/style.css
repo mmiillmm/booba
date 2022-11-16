@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(darkgrey, grey, black);
+    background-attachment: fixed;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+td{
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.kor{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.teglalap{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
