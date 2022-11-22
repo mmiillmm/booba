@@ -11,9 +11,9 @@ function korszam(){
 }
 
 function teglaszam() {
-    let teglahossz = teglahosszu.value;
+    let teglahossz = parseInt(teglahosszu.value);
 
-    let teglamag = teglamagass.value;
+    let teglamag = parseInt(teglamagass.value);
 
     let teglater = teglamag * teglahossz
 
