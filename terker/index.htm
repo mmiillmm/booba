@@ -17,39 +17,36 @@
                 </tr>
                 <tr>
                     <td>A kör sugara</td>
-                    <td><input type="number" name="" id="korsugar" value="0"></td>
+                    <td><input type="number" name="" id="korsugar" onchange="korszam()" min="1"></td>
                     <td rowspan="3"><div class="kor"></div></td>
                 </tr>
                 <tr>
                     <td>A kör kerülete</td>
-                    <td><input type="number" name="" id="korkerulet" value="0" disabled></td>
+                    <td><input type="number" name="" id="korkerulet" value="1" disabled></td>
                 </tr>
                 <tr>
                     <td>A kör területe</td>
-                    <td><input type="number" name="" id="korterulet"></td>
+                    <td><input type="number" name="" id="korterulet" value="1" disabled></td>
                 </tr>
                 <tr>
                     <td colspan="3">Téglalap</td>
                 </tr>
                 <tr>
                     <td>Oldal hossza</td>
-                    <td><input type="number" name="" id="tlh" value="0"></td>
+                    <td><input type="number" name="" id="teglahosszu" onchange="teglaszam()" min="1"></td>
                     <td rowspan="4"><div class="teglalap"></div></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Oldal magassága</td>
+                    <td><input type="number" name="" id="teglamagass" onchange="teglaszam()" min="1"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Téglalap kerülete</td>
+                    <td><input type="number" name="" id="teglakerulet" value="1" disabled></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Téglalap területe</td>
+                    <td><input type="number" name="" id="teglaterulet" value="1" disabled></td>
                 </tr>
             </table>
         </div>
